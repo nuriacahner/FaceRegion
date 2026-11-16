@@ -8,7 +8,6 @@ from.
 It reproduces 3-matic's *Fit cylinder* step of a distal radius osteotomy planning workflow:
 mark the diaphysis, fit a cylinder, take its axis.
 
-**Solid → Create → Fit Cylinder to Faces**
 
 ## Why
 
@@ -22,8 +21,11 @@ This add-in adds both, for any bone body: an organic NURBS body, a faceted solid
 
 ## Using it
 
+**Solid → Create → Fit Cylinder to Faces**
+
 1. Open **Fit Cylinder to Faces** and choose how to mark the stretch:
-   - **Between two points** (default, works on any body, including organic NURBS bones):
+   - **Between two points** (default, works on any body, including organic NURBS bones,
+     allows you to select two different points from a solid's same face):
      click where the diaphysis starts, then where it ends. A green and a red sphere mark
      the two points. The stretch is the whole surface between the planes through those
      points, perpendicular to the bone axis. A third click starts again.
