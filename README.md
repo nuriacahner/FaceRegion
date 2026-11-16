@@ -8,7 +8,6 @@ from.
 It reproduces 3-matic's *Fit cylinder* step of a distal radius osteotomy planning workflow:
 mark the diaphysis, fit a cylinder, take its axis.
 
-
 ## Why
 
 Measurements such as radial inclination, volar tilt or the angle between radius and ulna
@@ -44,6 +43,8 @@ The cylinder is created:
   whole stretch.
 
 Then use **Construct → Axis Through Cylinder** on it.
+
+
 
 ## Measured accuracy
 
