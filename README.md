@@ -95,9 +95,9 @@ interpreter has no numpy. scipy is only used by the optional `tools/check_scipy.
   across it than by the bone axis. Candidates with a radius larger than the covered length
   are rejected. If all three starts give one, the dialog refuses to create the body.
 - **Checks** (`fr_validate.py`):
-  - local optimality (small perturbations must raise the cost);
-  - the centre of each cross-section along the stretch and its offset from the axis;
-  - an independent centre line through those centres.
+  - Local optimality (small perturbations must raise the cost);
+  - The centre of each cross-section along the stretch and its offset from the axis;
+  - An independent centre line through those centres.
 
   An axis that "escapes" towards one end shows that the marking included metaphysis.
 
