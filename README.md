@@ -1,6 +1,6 @@
 # Fit Cylinder to Faces (FaceRegion)
 
-A Fusion add-in that fits the best cylinder to a marked stretch of a bone and creates it as a
+A Fusion 360 add-in that fits the best cylinder to a marked stretch of a bone and creates it as a
 body. The cylinder's axis is the bone's **anatomical axis**: Fusion's own
 **Construct → Axis Through Cylinder** then turns it into a construction axis you can measure
 from.
