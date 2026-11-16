@@ -45,7 +45,7 @@ The cylinder is created:
 Then use **Construct → Axis Through Cylinder** on it.
 
 <p align="center">
-  <img src="docs/img/FitCylinder.PNG" width="1000"><br>
+  <img src="docs_fitcylinder/img/FitCylinder.PNG" width="1000"><br>
   <em>Figure 1. Marking the diaphysis between two points and the fitted cylinder.</em>
 </p>
 
