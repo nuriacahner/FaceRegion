@@ -44,7 +44,7 @@ The cylinder is created:
 
 Then use **Construct → Axis Through Cylinder** on it.
 
-
+![Fit Cylinder to Faces dialog](docs/img/FitCylinder.PNG)
 
 ## Measured accuracy
 
