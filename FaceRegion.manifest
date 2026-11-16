@@ -1,0 +1,13 @@
+{
+    "autodeskProduct": "Fusion360",
+    "type": "addin",
+    "id": "b8e4d2a1-5c37-4f9e-a6b0-2d1e8c7f4a93",
+    "author": "Núria Cahner",
+    "description": {
+        "": "Fit the best cylinder to a marked area of a faceted body (e.g. a bone diaphysis) and create it as a body. Dlab-IT007 section 5.4."
+    },
+    "version": "0.1.0",
+    "runOnStartup": false,
+    "supportedOS": "windows|mac",
+    "editEnabled": true
+}
