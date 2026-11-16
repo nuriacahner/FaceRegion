@@ -13,8 +13,8 @@ mark the diaphysis, fit a cylinder, take its axis.
 Measurements such as radial inclination, volar tilt or the angle between radius and ulna
 need each bone's anatomical axis. In 3-matic that axis comes from a cylinder fitted to the
 marked diaphysis. Fusion has no equivalent:
-- it can't select a region of a surface triangle by triangle;
-- its tools have no least-squares cylinder fit.
+- It can't select a region of a surface triangle by triangle;
+- Its tools have no least-squares cylinder fit.
 
 This add-in adds both, for any bone body: an organic NURBS body, a faceted solid or a mesh.
 
@@ -31,20 +31,23 @@ This add-in adds both, for any bone body: an organic NURBS body, a faceted solid
    - **Selected faces** (faceted bodies, one face per triangle): select the faces with
      Fusion's Paint or Window selection, like 3-matic's Brush / Area Mark.
 2. The dialog previews the cylinder and reports:
-   - the radius and the fit residuals (RMS / max);
-   - the angle to the bone's inertia axis;
-   - in two-point mode, the stretch **as a percentage of the bone length**, so you can
+   - The radius and the fit residuals (RMS / max);
+   - The angle to the bone's inertia axis;
+   - In two-point mode, the stretch **as a percentage of the bone length**, so you can
      record and repeat the same marking.
 3. Optionally extend each end, name the cylinder, and press OK.
 
 The cylinder is created:
-- in a component called `Construcción` (kept apart from the bones);
-- in semi-transparent blue, so you can see whether it sits centred in the cortex along the
+- In a component called `Construcción` (kept apart from the bones);
+- In semi-transparent blue, so you can see whether it sits centred in the cortex along the
   whole stretch.
 
 Then use **Construct → Axis Through Cylinder** on it.
 
-![Fit Cylinder to Faces dialog](docs/img/FitCylinder.PNG)
+<p align="center">
+  <img src="docs/img/FitCylinder.PNG" width="1000"><br>
+  <em>Figure 1. Marking the diaphysis between two points and the fitted cylinder.</em>
+</p>
 
 ## Measured accuracy
 
