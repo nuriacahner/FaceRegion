@@ -28,8 +28,8 @@ This add-in adds both, for any bone body: an organic NURBS body, a faceted solid
    - **Selected faces** (faceted bodies, one face per triangle): select the faces with
      Fusion's Paint or Window selection, like 3-matic's Brush / Area Mark.
 2. The dialog previews the cylinder and reports:
-   - The radius and the fit residuals (RMS / max);
-   - The angle to the bone's inertia axis;
+   - The radius and the fit residuals (RMS / max)
+   - The angle to the bone's inertia axis
    - In two-point mode, the stretch **as a percentage of the bone length**, so you can
      record and repeat the same marking.
 3. Optionally extend each end, name the cylinder, and press OK.
