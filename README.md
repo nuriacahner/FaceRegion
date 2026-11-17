@@ -21,8 +21,7 @@ This add-in adds both, for any bone body: an organic NURBS body, a faceted solid
 
 1. Open **Fit Cylinder to Faces** and choose how to mark the stretch:
    - **Between two points** (default, works on any body, including organic NURBS bones,
-     allows you to select two different points from a solid's same face):
-     click where the diaphysis starts, then where it ends. A green and a red sphere mark
+     allows you to select two different points from a solid's same face). A green and a red sphere mark
      the two points. The stretch is the whole surface between the planes through those
      points, perpendicular to the bone axis. A third click starts again.
    - **Selected faces** (faceted bodies, one face per triangle): select the faces with
@@ -43,7 +42,7 @@ Then use **Construct → Axis Through Cylinder** on it.
 
 <p align="center">
   <img src="docs_fitcylinder/img/FitCylinder.PNG" width="1000"><br>
-  <em>Figure 1. Marking the diaphysis between two points and the fitted cylinder.</em>
+  <em>Figure 1. Marking a bone's diaphysis between two points and the fitted cylinder.</em>
 </p>
 
 ## Measured accuracy
