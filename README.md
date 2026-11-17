@@ -5,15 +5,12 @@ body. The cylinder's axis is the bone's **anatomical axis**: Fusion's own
 **Construct → Axis Through Cylinder** then turns it into a construction axis you can measure
 from.
 
-It reproduces 3-matic's *Fit cylinder* step of a distal radius osteotomy planning workflow:
-mark the diaphysis, fit a cylinder, take its axis.
-
 ## Why
 
 Measurements such as radial inclination, volar tilt or the angle between radius and ulna
 need each bone's anatomical axis. In 3-matic that axis comes from a cylinder fitted to the
 marked diaphysis. Fusion has no equivalent:
-- It can't select a region of a surface triangle by triangle;
+- It can't select a region of a surface triangle by triangle.
 - Its tools have no least-squares cylinder fit.
 
 This add-in adds both, for any bone body: an organic NURBS body, a faceted solid or a mesh.
